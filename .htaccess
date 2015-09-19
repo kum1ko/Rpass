@@ -1,0 +1,8 @@
+<IFMODULE mod_rewrite.c>
+RewriteEngine On
+
+
+
+
+RewriteRule ^(?!index.php)(.*)$ index.php?method=$1 [L]
+</IFMODULE>
