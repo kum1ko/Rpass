@@ -8,19 +8,19 @@
 
 所有的选项通过`URL`的组织来实现，如
 ```html
-http://aki.so/tools/rpass/18
+https://aneko.net/tools/rpass/18
 ```
 该命令输出长度为18，由大小写祖母和数字组成的密码串
 #### Options
 ##### {int} 长度
 ```html
-http://aki.so/tools/rpass/36
+https://aneko.net/tools/rpass/36
 <!-- 输出 -->
 R5T4GMeut5VbNQuZLl9hzheLtEeODs03zeJE
 ```
 ##### x{int} 数量
 ```html
-http://aki.so/tools/rpass/36/x5
+https://aneko.net/tools/rpass/36/x5
 <!-- 输出 -->
 RuODMOtciUlSYt27jkzSsXjCCv4m7hpt2n7g
 CCjFAlcYBZo9fAcSKzVgHGy6EJVTwRhv6Wcg
@@ -35,7 +35,7 @@ CJ87I0U8MeXI8bc3plYmzrCKLYfWuRh5xynS
 - **extreme** 大小写字母、数字、下划线以及特殊字符
 
 ```html
-http://aki.so/tools/rpass/36/extreme
+https://aneko.net/tools/rpass/36/extreme
 <!-- 输出 -->
 o$2VdB_4+CVdOT"DNuH`uOr__}'P(>&C?T[_
 ```
@@ -44,7 +44,7 @@ o$2VdB_4+CVdOT"DNuH`uOr__}'P(>&C?T[_
 该模式中的下划线不受影响
 
 ```html
-http://aki.so/tools/rpass/36/strong/norepeat
+https://aneko.net/tools/rpass/36/strong/norepeat
 <!-- 输出 -->
 KHbDnQ9l_PLzZT0aJFmr_3jy_voSRcNp_q1A
 ```
@@ -52,7 +52,7 @@ KHbDnQ9l_PLzZT0aJFmr_3jy_voSRcNp_q1A
 ##### {chinese} 中文汉字模式
 使用chinese模式时，除了长度参数有效外，其他均无效
 ```html
-http://aki.so/tools/rpass/36/chinese
+https://aneko.net/tools/rpass/36/chinese
 <!-- 输出 -->
 弄磕蔫看沾跌毫贝谨拣搞衫懒抓停奔等瘦乏勋糊币僵袜挨牡彤漂糜阜贫赔纱筋撼昭
 ```
@@ -66,7 +66,7 @@ http://aki.so/tools/rpass/36/chinese
 "S" "@#$%^&*()"
 
 ```html
-http://aki.so/tools/rpass/UUUU-LLLL-DDDD
+https://aneko.net/tools/rpass/UUUU-LLLL-DDDD
 <!-- 输出 -->
 RRIL-pvbc-9822
 ```
