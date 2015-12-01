@@ -79,6 +79,13 @@ RRIL-pvbc-9822
 * 当强度为strong及以上时，每8位密码必将随机产生一个下划线。
 
 #### URL重写配置
+
+##### Apache
 ```bash
 RewriteRule ^(?!index.php)(.*)$ index.php?method=$1 [L]
+```
+
+##### Nginx
+```bash
+rewrite ^/(?!index.php)(.*)$ /index.php?method=$1 last;
 ```
